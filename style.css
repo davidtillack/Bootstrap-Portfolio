@@ -1,56 +1,151 @@
-#Header-Box{
-	position:absolute;
+.footer {
 	color:#ffffff;
-	top:0;
+	position:fixed; /*Don't want it to move... also this is needed to get rid of margins*/
+	background: #777777;
+	padding:0px;
+	font-size:14px;
 	height:80px;
-	background:#ffffff;
+	text-align:center;
+	line-height: 80px; /*line height of same height will center*/
+	bottom:0;
 	width:100%;
+	margin:auto;
 	left:0;
-	right:0;
-	border-bottom:1px solid #cccccc;
-	z-index:-2;
-	overflow:auto;
+	z-index:4;
+	font-family: 'Georgia', Times, Times New Roman, serif;
 }
 
-.Wrapper {   
-	width:100%;
+.navbar{
+	height:auto;
+	background-color:#ffffff;
+	z-index:5;
+	border-bottom:1px solid #cccccc;
+}
+#My-Brand{
+	/*position:fixed;*/
+    top: 0;
+    background: #4aaaa5;
+    color: #ffffff;
+    height: 80px;
+    width: 230px;
+    text-align: center;
+    line-height:80px;
+    font-size: 30px;
+    z-index: 6;
+    font-weight: bold;
+    margin-left:80px;
+    margin-right:80px;
 }
 
 #Main-Body-Box{
-	position:absolute; /* Put the box in the background (like it takes up no space) */
-	background:#ffffff;
-	height:450px;	
-	width:650px;
-	z-index:-1;
-	margin-top:40px;
-	border:1px solid #dddddd;
-	margin-left:100px;
-}
-
-#Main-Body-Box-P{
-	position:absolute; /* Put the box in the background (like it takes up no space) */
-	background:#ffffff;
-	height:1000px;	
-	width:650px;
-	z-index:-1;
-	margin-top:40px;
-	border:1px solid #dddddd;
-	margin-left:100px;
-}
-
-#Right-Body-Box{
-	position:absolute;
-	background:#ffffff;
-	height:175px;
-	width:260px;
-	z-index:-1;
-	top:121px;
+	position:relative;
+	height:auto;
+	max-width:545px;
+	background-color:#ffffff;
+	border-radius:1px solid;
+	margin-top:20px;
+	padding:30px;
+	margin-bottom:20px;
 	border:1px solid #cccccc;
-	right:-5px;
-	left:0px;
-	overflow:hidden;
-	margin-left:790px;
-	margin-right:100px;
+	overflow:hidden; /* float left hack that enables my images to take space */
+}
+
+body {
+	background-image:url('https://3.bp.blogspot.com/-VQ6T6YzpbWc/U5gbCKBhSvI/AAAAAAAAGRA/rxgR4gfWU8g/s1600/lightly-textured-background-tile.jpg');
+	/*width:960px;*/
+}
+
+div.col-sm-12.col-md-8.col-lg-8.col-xl-8.col-xs-12{
+	margin-right:0px;
+	padding-right:0px;
+
+}
+
+ul.nav.navbar-nav.navbar-right{
+	float:left;
+}
+
+#li1{
+	float:left;
+	margin-right:20px;
+	margin-top:15px;
+	margin-left:20px;
+}
+
+#li2{
+	float:left;
+	margin-right:20px;
+	margin-top:15px;
+	margin-left:20px;
+}
+
+#li3{
+	float:left;
+	margin-right:20px;
+	margin-top:15px;
+	margin-left:20px;
+}
+
+div#Small-Body-Box {
+	padding-top:0px;
+	margin-top:20px;
+	margin-bottom:25px;
+	background:#dddddd;
+	height:1.8px;
+	/*width:590px;*/
+	margin-left:0px;
+/*	margin-right:405px;*/
+}
+
+
+div.col-sm-12.col-md-4.col-lg-4.col-xl-4.col-xs-12{ /* fixes the default padding of the column */
+	margin-right:0px;
+	padding-right:0px;
+}
+
+div#Social-1{
+	float:left;
+	height:50px;
+	width:50px;
+	max-width:100px;
+	margin-top:50px;
+	margin-right:5px;
+	margin-left:50px;
+	margin-bottom:80px;
+	display:inline;
+}
+
+div#Social-2{
+	float:left;
+	height:50px;
+	width:50px;
+	max-width:100px;
+	margin-top:50px;
+	margin-right:5px;
+	margin-left:5px;
+	margin-bottom:80px;
+	display:inline;
+}
+
+div#Social-3{
+	float:left;
+	height:50px;
+	width:50px;
+	max-width:100px;
+	margin-top:50px;
+	margin-right:5px;
+	margin-left:5px;
+	margin-bottom:80px;
+	display:inline;
+}
+
+#Right-Box{
+	background-color:#ffffff;
+	height:200px;
+	width:270px;
+	padding-right:30px;
+	margin-top:20px;
+	border:1px solid #cccccc;
 	text-align:center;
 	line-height:60px;
 	color:#49AAA4;
@@ -59,62 +154,36 @@
 	font-family: 'Georgia', Times, Times New Roman, serif;
 }
 
-#RBB-Git{
-	position:absolute;
-	z-index:1;
-	top:100px;
-	right:215px;
-	left:12.5px;
-	margin-left:400px;
+
+.container{
+	margin-top:100px;
+	margin-bottom:100px;
+	padding-left:80px;
+	padding-right:90px;
+	margin-right:0px;
+	margin-left:0px;
+
 }
 
-.Git{
-	position:absolute;
-	z-index:1;
-	top:100px;
-	height:55px;
-	width:55px;
-	left:12.5px;
-	margin-left:400px;
+#Profile-Image{
+	float:left;
+	margin-left:0px;
+	margin-right:20px;
 }
 
-#RBB-LinkedIn{
-	position:absolute;
-	z-index:1;
-	top:100px;
-	right:145px;
-	left:47.5px;
-	margin-left:400px;
+p{
+	font-size:18px;
 }
 
-.Link{
-    position:absolute;
-	z-index:1;
-	top:100px;
-	height:55px;
-	width:55px;
-	left:47.5px;
-	margin-left:400px;
+a#nav-link-1{
+	left:350px;
+	color:red;
 }
 
-#RBB-Stack{
-	position:absolute;
-	z-index:1;
-	top:100px;
-	right:80px;
-	left:80px;
-	margin-left:400px;
+a#nav-item-1{
+	left:350px;
 }
 
-.Stack{
-    position:absolute;
-	z-index:1;
-	top:100px;
-	height:55px;
-	width:55px;
-	left:80px;
-	margin-left:400px;
-}
 
 #Line-RBB{
 	position:absolute;
@@ -130,10 +199,10 @@
 
 #Image1{
 	float:left;
-	height:275px;
-	width:275px;
-	margin-left:130px;
-	margin-right:10px;
+	height:200px;
+	width:100%;
+	margin-left:0px;
+	margin-right:35px;
 	margin-bottom:20px;
 
 }
@@ -145,18 +214,20 @@
 	line-height:50px;
 	color:#ffffff;
 	height:50px;
-	width:275px;
+	width:100%;
 	z-index:2;
-	margin-left:130px;
-	margin-top:210px;
+	/*margin-left:10px;*/
+	margin-top:0px;
+	margin-right:10px;
 }
 
 #Image2{
 	float:left;
-	height:275px;
-	width:275px;
-	margin-left:30px;
+	height:200px;
+	width:200px;
+	margin-left:10px;
 	margin-bottom:20px;
+	margin-right:10px;
 }
 
 #B2{
@@ -175,10 +246,10 @@
 #Image3{
 	clear:both;
 	float:left;
-	height:275px;
-	width:275px;
-	margin-left:130px;
-	margin-right:10px;
+	height:200px;
+	width:200px;
+	margin-left:0px;
+	margin-right:35px;
 	margin-bottom:20px;
 }
 
@@ -197,10 +268,11 @@
 
 #Image4{
 	float:left;
-	height:275px;
-	width:275px;
-	margin-left:30px;
+	height:200px;
+	width:200px;
+	margin-left:10px;
 	margin-bottom:20px;
+	margin-right:10px;
 }
 
 #B4{
@@ -219,10 +291,9 @@
 #Image5{
 	clear:both;
 	float:left;
-	height:275px;
-	width:275px;
-	margin-left:130px;
-	margin-bottom:170px;
+	height:200px;
+	width:200px;
+	margin-left:0px;
 }
 
 #B5{
@@ -238,7 +309,7 @@
 	margin-top:800px;
 }
 
-#My-Name {
+/*#My-Name {
 	position:absolute;
 	top:0;
 	background:#4aaaa5;
@@ -248,10 +319,10 @@
 	text-align:center;
 	line-height:80px;
 	font-size:30px; 
-	z-index:4; /* Put my name on top of the white header box */
+	z-index:4; 
 	font-weight:bold;
 	margin-left:100px;
-}
+}*/
 /*
 .Sticky{
 	position:fixed;
@@ -264,7 +335,7 @@
 	width:80px;
 }*/
 
-#Button1{
+/*#Button1{
 	position:absolute;
 	top:0;
 	right:160px;
@@ -314,7 +385,7 @@
 	margin-right:0px;
 	padding-right:0px;
 	left:972.5px;
-}
+}*/
 
 .None{
 	text-decoration:none;
@@ -333,7 +404,7 @@
 	margin-left:100px;
 }
 
-#Small-Body-Box {
+/*#Small-Body-Box {
 	padding-top:0px;
 	margin-top:20px;
 	margin-bottom:25px;
@@ -342,25 +413,25 @@
 	width:590px;
 	margin-left:130px;
 	margin-right:405px;
-}
+}*/
 
-body {
+/*body {
 	background-image:url('https://3.bp.blogspot.com/-VQ6T6YzpbWc/U5gbCKBhSvI/AAAAAAAAGRA/rxgR4gfWU8g/s1600/lightly-textured-background-tile.jpg');
 	padding-top:80px;
 	margin-right:100px;
 	width:960px;
-}
+}*/
 
-p {
+/*p {
 	font-size: 15px;
 	font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
 	z-index:1;
 	color:#777777;
 	margin-left:130px;
 	width:590px;
-}
+}*/
 
-.Profile-Image {
+/*.Profile-Image {
 	float:left;
 	margin:auto;
 	padding-right:30px;
@@ -368,7 +439,7 @@ p {
 	width:200px;
 	height:200px;
 	margin-left:100px;
-}
+}*/
 
 #Padding-Box {
 	position:fixed;
@@ -378,27 +449,27 @@ p {
 	padding:0;
 	left:0;
 	right:0;
-	bottom:80px; /*Move down to the bottom next to the footer*/
+	bottom:80px; 
 	margin:auto;
 	z-index:4;
 }
 
-#Footer {
+/*#Footer {
 	color:#ffffff;
-	position:fixed; /*Don't want it to move... also this is needed to get rid of margins*/
+	position:fixed; 
 	background: #666666;
 	padding:0px;
 	font-size:14px;
 	height:80px;
 	text-align:center;
-	line-height: 80px; /*line height of same height will center*/
+	line-height: 80px; 
 	bottom:0;
 	width:100%;
 	margin:auto;
 	left:0;
 	z-index:4;
 	font-family: 'Georgia', Times, Times New Roman, serif;
-}
+}*/
 
 /* Style inputs with type="text", select elements and textareas */
 input[type=text], select, textarea {
@@ -435,7 +506,7 @@ input[type=submit]:hover {
 }
 
 /* Add a background color and some padding around the form */
-.container {
+.Contact-Wrapper {
     border-radius: 5px;
     background-color: #ffffff;
     padding: 21px;
@@ -470,3 +541,6 @@ label{
 	top:10px;
 	margin-bottom:30px;
 }
+
+
+
