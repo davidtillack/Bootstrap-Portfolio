@@ -199,10 +199,10 @@ a#nav-item-1{
 
 #Image1{
 	float:left;
-	height:200px;
-	width:100%;
+	/*height:200px;*/
+	/*width:100%;*/
 	margin-left:0px;
-	margin-right:35px;
+	margin-right:0px;
 	margin-bottom:20px;
 
 }
@@ -213,21 +213,22 @@ a#nav-item-1{
 	text-align:center;
 	line-height:50px;
 	color:#ffffff;
-	height:50px;
-	width:100%;
+	/*height:50px;
+	width:100%;*/
 	z-index:2;
 	/*margin-left:10px;*/
 	margin-top:0px;
-	margin-right:10px;
+	margin-right:0px;
+	padding:0px;
 }
 
 #Image2{
 	float:left;
-	height:200px;
-	width:200px;
+	/*height:200px;*/
+	width:100%;
 	margin-left:10px;
 	margin-bottom:20px;
-	margin-right:10px;
+	margin-right:0px;
 }
 
 #B2{
@@ -237,19 +238,19 @@ a#nav-item-1{
 	line-height:50px;
 	color:white;
 	height:50px;
-	width:275px;
+	width:100%;
 	z-index:2;
-	margin-left:445px;
-	margin-top:210px;
+	/*margin-left:445px;*/
+	margin-top:0px;
 }
 
 #Image3{
 	clear:both;
 	float:left;
-	height:200px;
-	width:200px;
+	/*height:200px;*/
+	/*width:200px;*/
 	margin-left:0px;
-	margin-right:35px;
+	margin-right:0px;
 	margin-bottom:20px;
 }
 
@@ -268,11 +269,11 @@ a#nav-item-1{
 
 #Image4{
 	float:left;
-	height:200px;
-	width:200px;
+/*	height:200px;
+	width:200px;*/
 	margin-left:10px;
 	margin-bottom:20px;
-	margin-right:10px;
+	margin-right:0px;
 }
 
 #B4{
@@ -291,8 +292,8 @@ a#nav-item-1{
 #Image5{
 	clear:both;
 	float:left;
-	height:200px;
-	width:200px;
+	/*height:200px;
+	width:200px;*/
 	margin-left:0px;
 }
 
@@ -509,14 +510,14 @@ input[type=submit]:hover {
 .Contact-Wrapper {
     border-radius: 5px;
     background-color: #ffffff;
-    padding: 21px;
-    width:612px;
-    top:160px;
-    margin-top:40px;
-    height:490px;
+    padding:21px;
+    width:100%;
+    margin-top:0px;
+    height:100%;
     padding-bottom:0px;
     border:1px solid #dddddd;
-    margin-left:100px;
+    margin-left:0px;
+    position:relative;
 }
 
 label{
