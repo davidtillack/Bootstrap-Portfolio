@@ -37,6 +37,7 @@
     margin-right:80px;
 }
 
+
 #Main-Body-Box{
 	position:relative;
 	height:auto;
@@ -45,6 +46,7 @@
 	border-radius:1px solid;
 	margin-top:20px;
 	padding:30px;
+	padding-right:40px;
 	margin-bottom:20px;
 	border:1px solid #cccccc;
 	overflow:hidden; /* float left hack that enables my images to take space */
@@ -58,6 +60,11 @@ body {
 div.col-sm-12.col-md-8.col-lg-8.col-xl-8.col-xs-12{
 	margin-right:0px;
 	padding-right:0px;
+
+}
+
+div.col-sm-6.col-md-6.col-lg-6.col-xl-6.col-xs-12{
+	padding:0px;
 
 }
 
@@ -225,10 +232,10 @@ a#nav-item-1{
 #Image2{
 	float:left;
 	/*height:200px;*/
-	width:100%;
+	/*width:100%;*/
 	margin-left:10px;
 	margin-bottom:20px;
-	margin-right:0px;
+	padding-right:0px;
 }
 
 #B2{
@@ -242,6 +249,7 @@ a#nav-item-1{
 	z-index:2;
 	/*margin-left:445px;*/
 	margin-top:0px;
+	margin-left:10px;
 }
 
 #Image3{
@@ -261,10 +269,10 @@ a#nav-item-1{
 	line-height:50px;
 	color:white;
 	height:50px;
-	width:275px;
+	width:100%;
 	z-index:2;
-	margin-left:130px;
-	margin-top:505px;
+	margin-left:0px;
+	margin-top:0px;
 }
 
 #Image4{
@@ -283,10 +291,11 @@ a#nav-item-1{
 	line-height:50px;
 	color:white;
 	height:50px;
-	width:275px;
+	width:100%;
 	z-index:2;
-	margin-left:445px;
-	margin-top:505px;
+	margin-left:10px;
+	margin-top:0px;
+	
 }
 
 #Image5{
@@ -304,10 +313,10 @@ a#nav-item-1{
 	line-height:50px;
 	color:#ffffff;
 	height:50px;
-	width:275px;
+	width:100%;
 	z-index:2;
-	margin-left:130px;
-	margin-top:800px;
+	margin-left:0px;
+	margin-top:0px;
 }
 
 /*#My-Name {
