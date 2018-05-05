@@ -350,6 +350,30 @@ a#nav-item-1{
 	margin-top:0px;
 }
 
+#Image6{
+	float:left;
+/*	height:200px;
+	width:200px;*/
+	margin-left:10px;
+	margin-bottom:20px;
+	margin-right:0px;
+}
+
+#B6{
+	position:absolute; /* absolute positioning doesn't take up space */
+	background-color:#49AAA4;
+	text-align:center;
+	line-height:50px;
+	color:white;
+	height:50px;
+	width:100%;
+	z-index:2;
+	margin-left:10px;
+	margin-top:0px;
+	
+}
+
+
 /*#My-Name {
 	position:absolute;
 	top:0;
